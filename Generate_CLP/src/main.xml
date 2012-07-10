@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<executable>
+<title>Skull Stripping</title>
+<description>Software to extract the brain of a T1 image with its associated labeled image.</description>
+ 
+
+  <parameters>
+    <label>T1 image</label>
+    <description>T1 image used for the skull stripping</description>
+    <string>
+      <name>T1</name>
+      <channel>input</channel>
+    </string>
+  </parameters>
+
+  <parameters>
+    <label>Labeled image</label>
+    <description>Labeled image used for the skull stripping</description>
+    <string>
+      <name>Labels</name>
+      <channel>input</channel>
+    </string>
+  </parameters>
+
+  <parameters>
+    <label>Ouput image name</label>
+    <description>Output image name</description>
+    <string>
+      <name>Output</name>
+      <channel>intput</channel>
+    </string>
+  </parameters>
+
+</executable>
