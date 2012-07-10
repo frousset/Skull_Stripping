@@ -1,0 +1,6 @@
+Program to extract the brain of a T1 image with its associated labeled image.
+
+3 versions available :
+  - command line arguments parser;
+  - generate CLP;
+  - GUI developed with QT4
